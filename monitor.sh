@@ -1,6 +1,6 @@
 #!/bin/bash
 # ================= 配置区 =================
-API_URL="https://misty-limit-dae8.vtern.workers.dev/report"
+API_URL="https://worker域名地址.workers.dev/report"
 SERVER_ID=${1:-$(hostname)}       # 优先使用运行脚本时的第一个参数，没有则用主机名
 TRAFFIC_LIMIT=${2:-1000}          # 优先使用第二个参数，没有则默认 1000
 # ==========================================
