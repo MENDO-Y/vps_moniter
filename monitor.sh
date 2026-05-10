@@ -1,4 +1,5 @@
-!/bin/bash
+#!/bin/bash
+
 # ================= 配置区worker域名地址.workers.dev/report =================
 API_URL="https://https://misty-limit-dae8.vtern.workers.dev/report"
 SERVER_ID=${1:-$(hostname)}       # 优先使用运行脚本时的第一个参数，没有则用主机名
