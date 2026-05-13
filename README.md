@@ -17,7 +17,11 @@ curl -L -o monitor.sh https://raw.githubusercontent.com/MENDO-Y/vps_moniter/main
 chmod +x monitor.sh
 ```
 
-# 3. 后台运行//先不要用 nohup，直接在控制台运行 bash monitor.sh
+# 3. 后台运行//可以先不要用 nohup，直接在控制台运行 bash monitor.sh
+```Bash
+bash monitor.sh
+```
+调试正常后，用nohup一直挂着
 ```Bash
 nohup ./monitor.sh > monitor.log 2>&1 &
 ```
