@@ -10,6 +10,26 @@
 
 D1 绑定名称：前往 Worker 设置 -> 变量 -> D1 数据库绑定。变量名称必须填 DB。
 
+进入 Cloudflare 控制台 -> D1 -> 你的数据库。
+
+点击 Console 标签页。
+
+输入以下命令并执行：
+```Bash
+CREATE TABLE IF NOT EXISTS vps_stats (
+  id TEXT PRIMARY KEY,
+  hostname TEXT,
+  os TEXT,
+  cpu_usage REAL,
+  mem_usage REAL,
+  disk_usage REAL,
+  traffic_used REAL,
+  traffic_limit REAL,
+  last_updated INTEGER
+);
+```
+
+
 兼容性标志：确保 Worker 的兼容性日期是最近的（建议 2024 年以后）。
 
 
