@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ================= 配置区 =================
-API_URL="https://misty-limit-dae8.vtern.workers.dev/report"
+API_URL="https://修改成WORKDER的地址/report"
 SERVER_ID="vps-05"   # 唯一标识符
 TRAFFIC_LIMIT=200   # 流量上限(GB)
 # ==========================================
