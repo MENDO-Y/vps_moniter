@@ -8,16 +8,18 @@ D1 绑定名称：前往 Worker 设置 -> 变量 -> D1 数据库绑定。变量�
 
 
 # 1. 下载文件
-curl -L -o monitor.sh https://raw.githubusercontent.com/MENDO-Y/vps_moniter/main/monitor.sh
-
-# 2. 赋予执行权限
-chmod +x monitor.sh
-
-# 3. 后台运行//先不要用 nohup，直接在控制台运行 bash monitor.sh
-nohup ./monitor.sh > monitor.log 2>&1 &
-
-
-
 ```Bash
 curl -L -o monitor.sh https://raw.githubusercontent.com/MENDO-Y/vps_moniter/main/monitor.sh
 ```
+
+# 2. 赋予执行权限
+```Bash
+chmod +x monitor.sh
+```
+
+# 3. 后台运行//先不要用 nohup，直接在控制台运行 bash monitor.sh
+```Bash
+nohup ./monitor.sh > monitor.log 2>&1 &
+```
+
+
