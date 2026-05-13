@@ -6,12 +6,6 @@ D1 绑定名称：前往 Worker 设置 -> 变量 -> D1 数据库绑定。变量�
 
 运行脚本：在 VPS 上给脚本权限并后台运行：
 
-Bash
-chmod +x monitor.sh
-nohup ./monitor.sh > monitor.log 2>&1 &
-国旗库：我在代码中引入了 flag-icon-css，它是基于 Cloudflare 识别的国家代码自动显示的。如果有的 VPS 没识别出来，会默认显示一个灰色旗帜。
-
-
 
 # 1. 下载文件
 curl -L -o monitor.sh https://raw.githubusercontent.com/MENDO-Y/vps_moniter/main/monitor.sh
