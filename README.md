@@ -16,3 +16,11 @@ chmod +x monitor.sh
 # 3. 后台运行//先不要用 nohup，直接在控制台运行 bash monitor.sh
 nohup ./monitor.sh > monitor.log 2>&1 &
 
+
+
+
+### 快速开始
+
+可以通过以下按钮快速获取安装脚本：
+
+[![安装脚本](https://img.shields.io/badge/一键复制-安装命令-blue?style=for-the-badge&logo=target)](你的RAW脚本链接)
