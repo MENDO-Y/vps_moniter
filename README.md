@@ -22,7 +22,3 @@ chmod +x monitor.sh
 # 3. 后台运行//先不要用 nohup，直接在控制台运行 bash monitor.sh
 nohup ./monitor.sh > monitor.log 2>&1 &
 
-
-<clipboard-copy value="nohup ./monitor.sh > monitor.log 2>&1 &">
-  <button type="button">点击复制内容</button>
-</clipboard-copy>
