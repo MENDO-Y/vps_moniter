@@ -18,9 +18,6 @@ nohup ./monitor.sh > monitor.log 2>&1 &
 
 
 
-
-### 快速开始
-
-可以通过以下按钮快速获取安装脚本：
-
-[![安装脚本](https://img.shields.io/badge/一键复制-安装命令-blue?style=for-the-badge&logo=target)](你的RAW脚本链接)
+```Bash
+curl -L -o monitor.sh https://raw.githubusercontent.com/MENDO-Y/vps_moniter/main/monitor.sh
+```
